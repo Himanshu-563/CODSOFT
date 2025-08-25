@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to My Landing Page</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
+    header { background: #4A90E2; color: white; padding: 40px 20px; text-align: center; }
+    nav { background: #333; display: flex; justify-content: center; }
+    nav a { color: white; padding: 15px 20px; text-decoration: none; }
+    nav a:hover { background: #555; }
+    .container { display: flex; flex-wrap: wrap; padding: 40px 20px; gap: 20px; }
+    .column { flex: 1; min-width: 250px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .cta { text-align: center; margin: 40px 0; }
+    .cta button { background: #4A90E2; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 5px; cursor: pointer; }
+    .cta button:hover { background: #357ABD; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Landing Page</h1>
+    <p>Crafted with HTML & CSS | Designed by Himanshu</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="column">
+      <h2>Section One</h2>
+      <p>This section introduces your product or idea. Use clean boxes and padding to keep content readable and visually appealing.</p>
+    </div>
+    <div class="column">
+      <h2>Section Two</h2>
+      <p>Highlight key features or benefits. Use color contrast and spacing to guide the user’s eye naturally through the content.</p>
+    </div>
+    <div class="column">
+      <h2>Section Three</h2>
+      <p>Include testimonials, stats, or a call to action. Keep alignment consistent and avoid overlapping elements with smart CSS.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <button>Get Started</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Himanshu. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
